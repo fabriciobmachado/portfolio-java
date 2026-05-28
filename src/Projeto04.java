@@ -1,14 +1,14 @@
 import java.util.Scanner;
 
-public class Projeto4 {
+public class Projeto04 {
 
 
         public static void main(String[] args) {
 
             Scanner leitor = new Scanner(System.in);
 
-            int contador = 1; // Controla quantas vezes o loop vai rodar
-            double totalFaturamento = 50000.0; // Variável ACUMULADORA (começa zerada)
+            int contador = 1;
+            double totalFaturamento = 50000.0; 
 
             System.out.println("=== Sistema de Compras Diario ===");
 
@@ -16,10 +16,7 @@ public class Projeto4 {
                 System.out.println("Seu saldo disponivel hoje é:" + totalFaturamento +"Digite o valor da compra" + contador + ":");
                 double valordaCompra = leitor.nextDouble(); // Lê um número quebrado (ex: 50.50)
                 totalFaturamento = totalFaturamento - valordaCompra ;
-                // -------------------------------------------------------------
-                // SEU DESAFIO AQUI DENTRO:
-                // Pegue a variável 'totalFaturamento' e acumule o 'valorVenda' nela.
-                // -------------------------------------------------------------
+               
 
                 contador++; // Avança o loop
             }
