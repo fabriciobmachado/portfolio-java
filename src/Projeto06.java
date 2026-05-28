@@ -1,10 +1,10 @@
 import java.util.Scanner;
 
-    public class Projeto6 {
+    public class Projeto06 {
         public static void main(String[] args) {
 
             Scanner leitor = new Scanner(System.in);
-            // Garante que o terminal aceite ponto (.) em vez de vírgula
+            
             leitor.useLocale(java.util.Locale.US);
 
             double totalFaturamento = 0.0; // Nosso porquinho acumulador
