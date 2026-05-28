@@ -1,5 +1,5 @@
 
-public class Projeto3 {
+public class Projeto03 {
     public static void main(String[] args) {
 
         System.out.println("=== Relatório de Transações NUMEROS INTEIROS DIVISIVEIS POR 3 ===");
